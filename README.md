@@ -27,6 +27,22 @@ cd C:\MCP-Gateway
 npm install
 ```
 
+### Cài ImageMagick để sử dụng chức năng chỉnh ảnh local
+
+```powershell
+winget install ImageMagick.ImageMagick
+```
+
+Sau khi cài xong, nên đóng PowerShell hiện tại và mở lại PowerShell mới để Windows cập nhật biến `PATH`.
+
+Kiểm tra ImageMagick:
+
+```powershell
+magick -version
+```
+
+Nếu lệnh trả về phiên bản ImageMagick thì các chức năng chỉnh ảnh local như `image_transform`, `image_composite` và `design_export_preview` có thể sử dụng ImageMagick.
+
 Repository đã có sẵn file:
 
 ```text
