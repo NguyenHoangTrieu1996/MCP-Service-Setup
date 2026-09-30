@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - feature/binary-media-office-tools
+      - feature/asset-editing-pipeline
 
 jobs:
   typecheck:
