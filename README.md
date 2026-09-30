@@ -233,56 +233,10 @@ http://127.0.0.1:8080/ui
 
 ## 9. Chạy Tunnel
 
-Bảo đảm MCP Server đang chạy trước:
-
 ```powershell
-cd C:\MCP-Gateway
-npm start
-```
-
-Sau đó mở PowerShell khác, nạp API Key từ `.env` rồi chạy Tunnel:
-
-```powershell
-$envFile = "C:\MCP-Gateway\.env"
-Get-Content $envFile | ForEach-Object {
-    if ($_ -match '^\s*([^#][^=]*)=(.*)$') {
-        $name = $matches[1].Trim()
-        $value = $matches[2].Trim()
-        [Environment]::SetEnvironmentVariable($name, $value, "Process")
-    }
-}
-
 cd C:\MCP-Gateway\tunnel
 .\tunnel-client.exe run --profile windows-mcp
 ```
-
-Giữ `tunnel-client` hoạt động trong suốt thời gian ChatGPT cần sử dụng MCP.
-
-Luồng kết nối:
-
-```text
-ChatGPT
-   |
-   v
-OpenAI
-   |
-   v
-Secure MCP Tunnel
-   |
-   v
-tunnel-client.exe
-   |
-   v
-http://127.0.0.1:3000/mcp
-   |
-   v
-MCP Gateway
-   |
-   v
-D:\Documents For Work
-```
-
-Không cần mở inbound port 3000 ra Internet.
 
 ---
 
