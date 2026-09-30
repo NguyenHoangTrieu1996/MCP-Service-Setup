@@ -1,3 +1,5 @@
+﻿Bản 4.0: xem [công cụ đọc file lớn và định dạng hỗ trợ](ADVANCED_TOOLS.md).
+
 # HƯỚNG DẪN CÀI ĐẶT MCP SERVICE + OPENAI SECURE MCP TUNNEL
 ## 1. Cài Node.js
 
@@ -44,7 +46,7 @@ C:\MCP-Gateway\src\index.ts
 Tìm:
 
 ```typescript
-const ROOT = path.resolve("D:\\Documents For Work");
+const ROOT = path.resolve(process.env.MCP_ROOT || "C:\\Users\\ADMIN\\Documents\\For Works");
 ```
 
 Đổi thành thư mục muốn cấp quyền cho AI.
@@ -52,7 +54,7 @@ const ROOT = path.resolve("D:\\Documents For Work");
 Ví dụ:
 
 ```typescript
-const ROOT = path.resolve("D:\\Documents For Work");
+const ROOT = path.resolve(process.env.MCP_ROOT || "C:\\Users\\ADMIN\\Documents\\For Works");
 ```
 
 Sau khi sửa, restart MCP:
@@ -279,7 +281,7 @@ http://127.0.0.1:3000/mcp
 MCP Gateway
    |
    v
-D:\Documents For Work
+C:\Users\ADMIN\Documents\For Works
 ```
 
 Không cần mở inbound port 3000 ra Internet.
@@ -327,4 +329,5 @@ MCP Inspector:
 https://github.com/modelcontextprotocol/inspector
 
 ---
+
 
