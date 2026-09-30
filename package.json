@@ -1,10 +1,11 @@
 {
   "name": "mcp-gateway",
   "version": "1.0.0",
-  "description": "",
+  "description": "Windows filesystem MCP gateway with binary, media and Office file support",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run typecheck",
+    "typecheck": "tsc --noEmit",
     "start": "tsx src/index.ts",
     "inspect": "npx @modelcontextprotocol/inspector"
   },
