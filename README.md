@@ -18,11 +18,11 @@ Nếu cả hai lệnh trả về version thì Node.js đã hoạt động.
 
 ## 2. Cài MCP Server từ GitHub
 
-Nếu bộ MCP Service đã có sẵn trên GitHub, clone repository về máy:
+Nếu bộ MCP Service đã có sẵn trên GitHub, clone repository hoặc tải file ZIP về máy:
 
 ```powershell
 cd C:\
-git clone <GITHUB_REPOSITORY_URL> MCP-Gateway
+git clone https://github.com/NguyenHoangTrieu1996/MCP-Service-Setup MCP-Gateway
 cd C:\MCP-Gateway
 npm install
 ```
