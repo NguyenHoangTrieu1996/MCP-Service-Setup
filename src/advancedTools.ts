@@ -281,7 +281,7 @@ try {
         elseif($c.t -eq 'inlineStr'){ $v=[string]$c.is.t }
         $vals += $v
       }
-      ($vals -join "`t")
+      ($vals -join [char]9)
     }
   }
 } finally { $zip.Dispose() }`;
