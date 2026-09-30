@@ -1,0 +1,694 @@
+{"time":"2026-09-30T07:16:45.465Z","action":"LIST","target":".","status":"SUCCESS"}
+{"time":"2026-09-30T07:16:54.656Z","action":"CREATE_FILE","target":"test.text","status":"SUCCESS"}
+{"time":"2026-09-30T07:17:00.598Z","action":"READ","target":"test.text","status":"SUCCESS"}
+{"time":"2026-09-30T07:17:53.949Z","action":"DELETE_REQUEST","target":"test.text","status":"PENDING","details":{"confirmation_id":"db4d3248-35d3-4c31-ba78-28f699c8249c"}}
+{"time":"2026-09-30T07:18:22.759Z","action":"DELETE","target":"test.text","status":"SUCCESS","details":{"backup":"C:\\MCP-Gateway\\backups\\2026-09-30T07-18-22-754Z-6ba916da-a9d1-4c56-aebe-3c9168a4c763-test.text"}}
+{"time":"2026-09-30T07:18:22.759Z","action":"CONFIRMATION","target":"DELETE test.text","status":"APPROVED","details":{"confirmation_id":"db4d3248-35d3-4c31-ba78-28f699c8249c"}}
+{"time":"2026-09-30T07:21:53.669Z","action":"LIST","target":".","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:05.374Z","action":"LIST","target":"DuongHam","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:06.475Z","action":"LIST","target":"LanSuRong Full","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:07.422Z","action":"LIST","target":"exhibition_cms_nestjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:08.345Z","action":"LIST","target":"Create App","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:09.336Z","action":"LIST","target":"50nam","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:10.298Z","action":"LIST","target":"MAN HINH SANH","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:11.387Z","action":"LIST","target":"PDiaLy","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:12.336Z","action":"LIST","target":"SongNuoc","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:13.341Z","action":"LIST","target":"Thiết kế trưng bày","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:14.586Z","action":"LIST","target":"thư và kỷ vật kháng chiến","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:15.639Z","action":"LIST","target":"Tem về Bác","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:16.319Z","action":"LIST","target":"vanhoa-main","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:17.323Z","action":"LIST","target":"VRG","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:18.265Z","action":"LIST","target":"TrangPhucCoTrang","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:19.148Z","action":"LIST","target":"TamQuanDaiDe","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:20.054Z","action":"LIST","target":"PKINH TE","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:28.588Z","action":"READ","target":"Các App tích hợp.txt","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:29.596Z","action":"READ","target":"exhibition_cms_nestjs\\README.md","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:39.289Z","action":"LIST","target":"50nam\\50yearroom2","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:39.934Z","action":"LIST","target":"50nam\\video","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:40.937Z","action":"LIST","target":"50nam\\video2","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:41.965Z","action":"LIST","target":"50nam\\50namApp","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:42.949Z","action":"LIST","target":"Create App\\TrangPhucCoTrang","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:43.892Z","action":"LIST","target":"exhibition_cms_nestjs\\frontend","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:44.957Z","action":"LIST","target":"DuongHam\\video","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:45.865Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:46.804Z","action":"LIST","target":"exhibition_cms_nestjs\\.github","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:47.756Z","action":"LIST","target":"exhibition_cms_nestjs\\backup","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:48.772Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:49.733Z","action":"LIST","target":"exhibition_cms_nestjs\\backend","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:50.661Z","action":"LIST","target":"LanSuRong Full\\lansurong","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:52.170Z","action":"LIST","target":"LanSuRong Full\\FILEBOSUNG","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:53.076Z","action":"LIST","target":"MAN HINH SANH\\Quá trình hình thành và phát triển vùng đất Sài Gòn – Gia Định","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:54.028Z","action":"LIST","target":"MAN HINH SANH\\Hình bổ sung màn hình sảnh","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:54.973Z","action":"LIST","target":"MAN HINH SANH\\Kiến trúc nghệ thuật - Cơ sở tín ngưỡng","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:55.891Z","action":"LIST","target":"MAN HINH SANH\\Văn hoá con người Sài Gòn – Thành phố Hồ Chí Minh và cư dân Nam Bộ","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:56.940Z","action":"LIST","target":"MAN HINH SANH\\sanhchinh","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:57.949Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:58.947Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh","status":"SUCCESS"}
+{"time":"2026-09-30T07:22:59.894Z","action":"LIST","target":"MAN HINH SANH\\video","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:00.861Z","action":"LIST","target":"PKINH TE\\HÌNH P. KINH TE 2025","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:02.100Z","action":"LIST","target":"PKINH TE\\kinhte","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:15.067Z","action":"LIST","target":"PKINH TE\\kinhte-led2","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:15.978Z","action":"LIST","target":"PKINH TE\\kinhte-led1","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:17.004Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:17.982Z","action":"LIST","target":"SongNuoc\\songnuoc-doc","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:18.814Z","action":"LIST","target":"SongNuoc\\songnuoc-main","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:19.747Z","action":"LIST","target":"TamQuanDaiDe\\1x","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:20.679Z","action":"LIST","target":"TamQuanDaiDe\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:21.654Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:22.618Z","action":"LIST","target":"Tem về Bác\\man hinh sanh chính","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:23.752Z","action":"LIST","target":"Tem về Bác\\HÀNH TRÌNH THEO CHÂN BÁC 2024_3","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:25.003Z","action":"LIST","target":"Thiết kế trưng bày\\75years","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:25.951Z","action":"LIST","target":"Thiết kế trưng bày\\Cafe","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:26.923Z","action":"LIST","target":"TamQuanDaiDe\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:27.976Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:28.909Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\thuvakyvat","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:29.937Z","action":"LIST","target":"TrangPhucCoTrang\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:31.036Z","action":"LIST","target":"TrangPhucCoTrang\\images","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:31.979Z","action":"LIST","target":"vanhoa-main\\img","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:33.045Z","action":"LIST","target":"vanhoa-main\\JS","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:33.968Z","action":"LIST","target":"vanhoa-main\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:35.050Z","action":"LIST","target":"VRG\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:35.748Z","action":"LIST","target":"vanhoa-main\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:36.697Z","action":"LIST","target":"VRG\\element","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:37.745Z","action":"LIST","target":"VRG\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:38.677Z","action":"LIST","target":"TrangPhucCoTrang\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:39.677Z","action":"LIST","target":"VRG\\page2","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:40.673Z","action":"LIST","target":"50nam\\50namApp\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:41.653Z","action":"LIST","target":"50nam\\50namApp\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:42.269Z","action":"LIST","target":"50nam\\50namApp\\public","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:43.189Z","action":"LIST","target":"VRG\\page5","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:44.081Z","action":"LIST","target":"VRG\\page3","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:45.007Z","action":"LIST","target":"50nam\\50yearroom2\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:45.950Z","action":"LIST","target":"50nam\\50yearroom2\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:46.978Z","action":"LIST","target":"50nam\\50namApp\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:47.951Z","action":"LIST","target":"50nam\\50yearroom2\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:50.408Z","action":"LIST","target":"50nam\\50yearroom2\\public","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:51.319Z","action":"LIST","target":"Create App\\TrangPhucCoTrang\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:52.241Z","action":"LIST","target":"Create App\\TrangPhucCoTrang\\images","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:53.219Z","action":"LIST","target":"Create App\\TrangPhucCoTrang\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:23:54.316Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:08.048Z","action":"SEARCH","target":".","status":"SUCCESS","details":{"query":".","results":500}}
+{"time":"2026-09-30T07:24:20.348Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:21.306Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\page","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:22.230Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:23.182Z","action":"LIST","target":"exhibition_cms_nestjs\\.github\\workflows","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:24.209Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\data","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:25.135Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\data","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:26.108Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:27.061Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:28.037Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:28.680Z","action":"LIST","target":"exhibition_cms_nestjs\\frontend\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:29.703Z","action":"LIST","target":"exhibition_cms_nestjs\\frontend\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:30.639Z","action":"LIST","target":"LanSuRong Full\\lansurong\\.vscode","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:31.563Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:32.534Z","action":"LIST","target":"LanSuRong Full\\lansurong\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:33.464Z","action":"LIST","target":"LanSuRong Full\\lansurong\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:34.409Z","action":"LIST","target":"LanSuRong Full\\lansurong\\public","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:35.395Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:36.535Z","action":"LIST","target":"MAN HINH SANH\\Hình bổ sung màn hình sảnh\\QUÁ TRÌNH HINH THANH VA PT VÙNG ĐẤT SG - GD","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:37.521Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\Liên đoàn LSR TP.HCM chọn","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:38.836Z","action":"LIST","target":"MAN HINH SANH\\Hình bổ sung màn hình sảnh\\KIẾN TRÚC NGHỆ THUẬT VÀ CƠ SỞ TÍN NGƯỠNG","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:39.748Z","action":"LIST","target":"MAN HINH SANH\\sanhchinh\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:40.668Z","action":"LIST","target":"MAN HINH SANH\\Hình bổ sung màn hình sảnh\\TP.HCM HỘI NHẬP VÀ PHÁT TRIỂN","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:41.766Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập\\Giáo dục","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:42.715Z","action":"LIST","target":"MAN HINH SANH\\sanhchinh\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:43.328Z","action":"LIST","target":"MAN HINH SANH\\Quá trình hình thành và phát triển vùng đất Sài Gòn – Gia Định\\Chợ Sài Gòn xưa","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:44.381Z","action":"LIST","target":"MAN HINH SANH\\Hình bổ sung màn hình sảnh\\VĂN HÓA SG - TP.HCM & CƯ DÂN NB","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:45.384Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập\\Cơ sở hạ tầng","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:46.345Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập\\Cải tạo sản xuất – Phát triển kinh tế","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:47.373Z","action":"LIST","target":"MAN HINH SANH\\Quá trình hình thành và phát triển vùng đất Sài Gòn – Gia Định\\Cảng Sài Gòn xưa","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:48.315Z","action":"LIST","target":"MAN HINH SANH\\Văn hoá con người Sài Gòn – Thành phố Hồ Chí Minh và cư dân Nam Bộ\\Phương tiện đi lại","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:49.428Z","action":"LIST","target":"MAN HINH SANH\\Quá trình hình thành và phát triển vùng đất Sài Gòn – Gia Định\\Kiến trúc Sài Gòn xưa","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:50.412Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập\\Du lịch","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:51.374Z","action":"LIST","target":"MAN HINH SANH\\Văn hoá con người Sài Gòn – Thành phố Hồ Chí Minh và cư dân Nam Bộ\\Di tích kiến trúc nghệ thuật cấp Thành phố","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:52.333Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập\\Mở rộng đối ngoại – thu hút đầu tư","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:53.309Z","action":"LIST","target":"MAN HINH SANH\\Văn hoá con người Sài Gòn – Thành phố Hồ Chí Minh và cư dân Nam Bộ\\Trang phục","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:54.238Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập\\Y tế","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:55.189Z","action":"LIST","target":"MAN HINH SANH\\Văn hoá con người Sài Gòn – Thành phố Hồ Chí Minh và cư dân Nam Bộ\\Giải trí Sài Gòn xưa","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:56.106Z","action":"LIST","target":"MAN HINH SANH\\Thành phố Hồ Chí Minh phát triển và hội nhập\\Thể thao","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:57.112Z","action":"LIST","target":"MAN HINH SANH\\Văn hoá con người Sài Gòn – Thành phố Hồ Chí Minh và cư dân Nam Bộ\\Hàng quán Sài Gòn xưa","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:58.086Z","action":"LIST","target":"MAN HINH SANH\\Văn hoá con người Sài Gòn – Thành phố Hồ Chí Minh và cư dân Nam Bộ\\Lễ hội","status":"SUCCESS"}
+{"time":"2026-09-30T07:24:58.988Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:00.009Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:01.214Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:02.171Z","action":"LIST","target":"PKINH TE\\kinhte-led1\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:03.399Z","action":"LIST","target":"PKINH TE\\kinhte-led1\\.vscode","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:04.551Z","action":"LIST","target":"PKINH TE\\kinhte\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:05.502Z","action":"LIST","target":"PKINH TE\\kinhte\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:06.458Z","action":"LIST","target":"PKINH TE\\kinhte-led2\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:07.409Z","action":"LIST","target":"PKINH TE\\kinhte-led1\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:08.399Z","action":"LIST","target":"PKINH TE\\kinhte\\video2","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:09.382Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:10.391Z","action":"LIST","target":"PKINH TE\\kinhte-led2\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:11.408Z","action":"LIST","target":"PKINH TE\\kinhte-led2\\video","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:12.500Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\2025 - p TB song ngoi kenh rach","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:13.574Z","action":"LIST","target":"SongNuoc\\songnuoc-doc\\.vscode","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:14.602Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:15.537Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ĐÔ THỊ SÀI GÒN - TPHCM QUA TƯ LIỆU SÔNG NGÒI KÊNH RẠCH","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:17.129Z","action":"LIST","target":"SongNuoc\\songnuoc-doc\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:24.085Z","action":"READ","target":"50nam\\50namApp\\js\\main.js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:24.400Z","action":"LIST","target":"SongNuoc\\songnuoc-doc\\file","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:25.048Z","action":"READ","target":"DuongHam\\DuongHamDinhGiaLong\\README.md","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:25.364Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ẢNH HV BẢN ĐỒ -BẢN VẼ SÔNG NGÒI, KÊNH RẠCH SG-TP.HCM","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:26.015Z","action":"READ","target":"Create App\\package.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:26.921Z","action":"READ","target":"PDiaLy\\DiaLyHanhChinh\\README.md","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:27.951Z","action":"READ","target":"50nam\\50yearroom2\\js\\main.js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:28.876Z","action":"LIST","target":"SongNuoc\\songnuoc-doc\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:29.893Z","action":"LIST","target":"SongNuoc\\songnuoc-main\\.vscode","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:30.904Z","action":"LIST","target":"SongNuoc\\songnuoc-main\\BG song ngoi kenh rach","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:31.835Z","action":"LIST","target":"SongNuoc\\songnuoc-main\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:32.781Z","action":"LIST","target":"SongNuoc\\songnuoc-main\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:33.446Z","action":"LIST","target":"TamQuanDaiDe\\css\\animate4.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:34.412Z","action":"LIST","target":"TamQuanDaiDe\\css\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:35.370Z","action":"LIST","target":"TamQuanDaiDe\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:36.432Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:37.478Z","action":"LIST","target":"TamQuanDaiDe\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:38.471Z","action":"LIST","target":"TamQuanDaiDe\\js\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:39.497Z","action":"LIST","target":"TamQuanDaiDe\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:40.567Z","action":"LIST","target":"TamQuanDaiDe\\js\\counter","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:41.593Z","action":"LIST","target":"TamQuanDaiDe\\js\\wow","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:42.512Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\1","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:43.430Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\3","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:44.372Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\2","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:45.331Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\4","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:46.251Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\5","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:47.276Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\6.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:48.301Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\6.2","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:49.261Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\6.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:50.526Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\6.3","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:51.519Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:52.497Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.1.2","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:53.488Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:54.495Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.1.3","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:55.627Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.2","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:56.538Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.3","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:57.488Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.4","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:58.085Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.4.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:58.844Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\data","status":"SUCCESS"}
+{"time":"2026-09-30T07:25:59.152Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.6","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:00.107Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.5","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:01.072Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.7","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:01.799Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\7.7.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:02.867Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:04.278Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8.2","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:05.253Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:06.157Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8.3","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:07.194Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8.4","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:08.063Z","action":"READ","target":"exhibition_cms_nestjs\\backend\\data\\contents.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:08.949Z","action":"READ","target":"exhibition_cms_nestjs\\backend\\data\\artifacts.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:10.633Z","action":"READ","target":"exhibition_cms_nestjs\\backend\\data\\locations.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:11.637Z","action":"READ","target":"exhibition_cms_nestjs\\backend\\data\\documents.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:12.585Z","action":"READ","target":"exhibition_cms_nestjs\\backend\\data\\files.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:13.931Z","action":"READ","target":"exhibition_cms_nestjs\\backend\\data\\settings.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:14.907Z","action":"READ","target":"exhibition_cms_nestjs\\backend\\data\\spaces.json","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:15.988Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8.5","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:16.905Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8.6","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:17.814Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\9.4","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:18.778Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\8.7","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:19.688Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\9.5","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:20.653Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\9.6","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:21.661Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\9.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:22.566Z","action":"LIST","target":"Thiết kế trưng bày\\Cafe\\1x","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:23.484Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\9.3","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:24.473Z","action":"LIST","target":"Tem về Bác\\ẢNH HIỆN VẬT 1\\9.2","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:25.460Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\2025 - Thư thời chiến","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:26.383Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\KK 10347.10348.10349.10350.10352 - 5","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:27.310Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\KK 10867 - 10869 - 5","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:28.354Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\BQTT 828 - 4","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:29.356Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\BQTT 827.2 - 1","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:30.345Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\KK 85 - 86 - THƯ LÊ DUẨN - HỒ ANH - 5","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:31.267Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\BQTT 897 - 5","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:32.218Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\KK 15 - 2","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:32.863Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\BQTT 828.4 - TẬP THƯ - 14","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:33.841Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\BQTT 873 -2","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:34.782Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\thuvakyvat\\.vscode","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:35.796Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\thuvakyvat\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:36.746Z","action":"LIST","target":"TrangPhucCoTrang\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:37.717Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\thuvakyvat\\ẢNH HIỆN VẬT","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:38.623Z","action":"LIST","target":"TrangPhucCoTrang\\images\\1x","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:39.539Z","action":"LIST","target":"TrangPhucCoTrang\\images\\design","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:40.536Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\thuvakyvat\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:41.523Z","action":"LIST","target":"vanhoa-main\\pages\\tinnguong","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:42.398Z","action":"LIST","target":"vanhoa-main\\pages\\phongtuc","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:43.348Z","action":"LIST","target":"vanhoa-main\\JS\\bootstrap@4.3.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:44.287Z","action":"LIST","target":"VRG\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:45.240Z","action":"LIST","target":"vanhoa-main\\JS\\libs","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:46.200Z","action":"LIST","target":"VRG\\css\\animate4.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:47.147Z","action":"LIST","target":"vanhoa-main\\pages\\giaoduc","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:48.215Z","action":"LIST","target":"vanhoa-main\\pages\\nghethuat","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:49.165Z","action":"LIST","target":"TrangPhucCoTrang\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:50.156Z","action":"LIST","target":"vanhoa-main\\css\\bootstrap@4.3.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:51.071Z","action":"LIST","target":"VRG\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:51.790Z","action":"LIST","target":"VRG\\element\\gioithieuchung","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:52.742Z","action":"LIST","target":"vanhoa-main\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:54.054Z","action":"LIST","target":"VRG\\element\\noidungtrungbay","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:55.069Z","action":"LIST","target":"VRG\\element\\LanhDaoNhaNuoc","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:56.040Z","action":"LIST","target":"VRG\\element\\Link","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:56.957Z","action":"LIST","target":"VRG\\element\\quanlyquacacthoiky","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:57.945Z","action":"LIST","target":"VRG\\element\\tailieu","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:58.920Z","action":"LIST","target":"VRG\\js\\wow","status":"SUCCESS"}
+{"time":"2026-09-30T07:26:59.848Z","action":"LIST","target":"VRG\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:00.778Z","action":"LIST","target":"50nam\\50namApp\\js\\carousel","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:01.715Z","action":"LIST","target":"50nam\\50namApp\\css\\googleapis","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:02.774Z","action":"LIST","target":"VRG\\js\\counter","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:03.793Z","action":"LIST","target":"50nam\\50namApp\\js\\tailwindcss","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:04.789Z","action":"LIST","target":"50nam\\50namApp\\public\\images","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:05.752Z","action":"LIST","target":"50nam\\50namApp\\public\\datas","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:06.791Z","action":"LIST","target":"50nam\\50yearroom2\\css\\googleapis","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:07.752Z","action":"LIST","target":"50nam\\50yearroom2\\js\\tailwindcss","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:08.643Z","action":"LIST","target":"50nam\\50yearroom2\\public\\datas","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:09.611Z","action":"LIST","target":"50nam\\50yearroom2\\js\\carousel","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:10.572Z","action":"LIST","target":"50nam\\50yearroom2\\public\\images","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:11.575Z","action":"LIST","target":"Create App\\TrangPhucCoTrang\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:12.544Z","action":"LIST","target":"Create App\\TrangPhucCoTrang\\images\\1x","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:13.511Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\files","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:13.824Z","action":"LIST","target":"Create App\\TrangPhucCoTrang\\images\\design","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:14.453Z","action":"LIST","target":"Create App\\TrangPhucCoTrang\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:14.760Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css\\animate4.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:15.435Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:16.234Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:17.099Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\js\\model-viewer","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:17.748Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\js\\wow","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:18.750Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:19.670Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\common","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:20.609Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\3d","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:21.537Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:22.701Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\kinhte-merge","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:23.695Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:24.604Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\songnuoc-doc","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:25.535Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\documents","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:26.500Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\artifacts","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:27.509Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\datas","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:28.475Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\contents","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:29.420Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\js\\counter","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:30.397Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\locations","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:31.404Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\spaces","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:32.324Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:33.418Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:34.437Z","action":"LIST","target":"exhibition_cms_nestjs\\frontend\\js\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:35.417Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\animate4.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:36.308Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:37.378Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:38.342Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:39.008Z","action":"LIST","target":"LanSuRong Full\\lansurong\\js\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:40.035Z","action":"LIST","target":"LanSuRong Full\\lansurong\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:41.048Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\src\\media","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:42.137Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:43.054Z","action":"LIST","target":"LanSuRong Full\\lansurong\\public\\element","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:43.972Z","action":"LIST","target":"LanSuRong Full\\lansurong\\js\\wow","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:44.943Z","action":"LIST","target":"LanSuRong Full\\lansurong\\js\\counter","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:45.877Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC01","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:46.854Z","action":"LIST","target":"LanSuRong Full\\lansurong\\js\\fireflower","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:47.812Z","action":"LIST","target":"LanSuRong Full\\lansurong\\public\\design","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:48.746Z","action":"LIST","target":"LanSuRong Full\\lansurong\\public\\images","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:49.863Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC03","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:50.836Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC04","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:51.779Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC02","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:52.947Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC05","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:53.953Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC06","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:54.908Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC07","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:55.963Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC08","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:56.901Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC09","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:57.894Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC10","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:58.896Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC15","status":"SUCCESS"}
+{"time":"2026-09-30T07:27:59.859Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC12","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:00.453Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC11","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:01.391Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC13","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:02.384Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC14","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:03.419Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC16","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:04.486Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC17","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:06.252Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC20","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:07.186Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC18","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:08.124Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC19","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:09.127Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC21","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:10.159Z","action":"READ","target":"MAN HINH SANH\\sanhchinh\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:15.807Z","action":"READ","target":"PKINH TE\\kinhte\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:17.677Z","action":"READ","target":"LanSuRong Full\\lansurong\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:19.061Z","action":"READ","target":"SongNuoc\\songnuoc-main\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:24.394Z","action":"READ","target":"TamQuanDaiDe\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:25.665Z","action":"READ","target":"TrangPhucCoTrang\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:26.613Z","action":"READ","target":"vanhoa-main\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:28.040Z","action":"READ","target":"VRG\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:29.031Z","action":"READ","target":"thư và kỷ vật kháng chiến\\thuvakyvat\\index.html","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:30.376Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC38","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:31.328Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC42","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:32.284Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC22","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:33.294Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC29","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:34.351Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC28","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:35.374Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC43","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:36.340Z","action":"LIST","target":"MAN HINH SANH\\sanhchinh\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:37.365Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC27","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:38.350Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC45","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:39.269Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC39","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:40.654Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\Liên đoàn LSR TP.HCM chọn\\CÁC ĐỘNG TÁC LÊN MAI HOA THUNG","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:41.791Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC40","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:42.825Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC44","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:43.747Z","action":"LIST","target":"MAN HINH SANH\\sanhchinh\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:44.671Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\animate4.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:45.587Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC41","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:46.504Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:47.451Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:48.378Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:49.395Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC52","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:50.502Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:50.825Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\element","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:51.395Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\js\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:51.719Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Mang GT toan tinh BR-VT","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:52.020Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:52.330Z","action":"LIST","target":".","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:52.679Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:53.040Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\datas","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:53.581Z","action":"LIST","target":"PKINH TE\\kinhte\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:53.957Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\js\\counter","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:54.473Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\songnuoc-doc","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:55.071Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\js\\wow","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:55.439Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:56.444Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ẢNH HV BẢN ĐỒ -BẢN VẼ SÔNG NGÒI, KÊNH RẠCH SG-TP.HCM\\kho GIẤY- BẢN ĐỒ","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:57.455Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\design","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:58.426Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Duong thuy noi dia-cang bien toan tinh BR-VT","status":"SUCCESS"}
+{"time":"2026-09-30T07:28:59.460Z","action":"LIST","target":"PKINH TE\\kinhte\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:00.520Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:01.456Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\images","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:03.560Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\2025 - p TB song ngoi kenh rach\\2025 - p TB song ngoi kenh rach","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:04.709Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\kinhte-merge","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:06.134Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Nut giao - MCNDD","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:07.457Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ĐÔ THỊ SÀI GÒN - TPHCM QUA TƯ LIỆU SÔNG NGÒI KÊNH RẠCH\\KK 8918.20","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:08.413Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ĐÔ THỊ SÀI GÒN - TPHCM QUA TƯ LIỆU SÔNG NGÒI KÊNH RẠCH\\KK 8918(17)-HS CẦU BÌNH LỢI","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:09.458Z","action":"LIST","target":"SongNuoc\\songnuoc-doc\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:10.404Z","action":"LIST","target":"SongNuoc\\songnuoc-doc\\file\\img","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:11.334Z","action":"LIST","target":"SongNuoc\\songnuoc-main\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:12.255Z","action":"LIST","target":"SongNuoc\\songnuoc-main\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:13.170Z","action":"LIST","target":"SongNuoc\\songnuoc-doc\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:14.174Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\metadata","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:15.170Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:16.105Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\sprites-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:17.050Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:17.653Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:18.605Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:19.594Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:20.599Z","action":"LIST","target":"TamQuanDaiDe\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:21.574Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\webfonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:22.477Z","action":"LIST","target":"TamQuanDaiDe\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:23.484Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\sprites","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:24.437Z","action":"LIST","target":"TamQuanDaiDe\\css\\line-awesome\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:25.126Z","action":"CREATE_FILE","target":"README-MCP.md","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:25.590Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\thuvakyvat\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:26.542Z","action":"LIST","target":"TamQuanDaiDe\\css\\line-awesome\\svg","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:28.196Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\2025.3 - TRƯNG BÀY THƯ THỜI CHIẾN\\KK 85 - 86 - THƯ LÊ DUẨN - HỒ ANH - 5\\KK 85","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:29.100Z","action":"LIST","target":"vanhoa-main\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:30.072Z","action":"LIST","target":"thư và kỷ vật kháng chiến\\thuvakyvat\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:30.973Z","action":"LIST","target":"vanhoa-main\\JS\\libs\\backToTopjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:31.959Z","action":"LIST","target":"vanhoa-main\\JS\\libs\\CarouselJs","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:32.938Z","action":"LIST","target":"vanhoa-main\\JS\\libs\\coutupjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:33.875Z","action":"LIST","target":"vanhoa-main\\JS\\libs\\magnificJs","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:36.106Z","action":"LIST","target":"vanhoa-main\\JS\\libs\\slick","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:37.077Z","action":"LIST","target":"VRG\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:37.755Z","action":"LIST","target":"VRG\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:38.719Z","action":"LIST","target":"vanhoa-main\\JS\\libs\\wowjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:39.773Z","action":"LIST","target":"vanhoa-main\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:40.717Z","action":"LIST","target":"VRG\\css\\line-awesome\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:41.728Z","action":"LIST","target":"VRG\\css\\line-awesome\\svg","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:43.517Z","action":"LIST","target":"VRG\\element\\LanhDaoNhaNuoc\\lanhdaodangvanhanuoc","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:44.519Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\1897-1929","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:45.509Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\1930-1945","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:46.414Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\1945-1954","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:47.457Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\1954-1975","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:48.479Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:49.486Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\1996-2005","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:50.433Z","action":"LIST","target":"50nam\\50namApp\\public\\images\\page3","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:51.410Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\1986-1995","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:52.526Z","action":"LIST","target":"VRG\\element\\quanlyquacacthoiky\\1945-1994","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:53.541Z","action":"LIST","target":"VRG\\element\\quanlyquacacthoiky\\giamdoc","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:54.479Z","action":"LIST","target":"VRG\\element\\quanlyquacacthoiky\\dangbo","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:55.473Z","action":"LIST","target":"50nam\\50namApp\\public\\images\\page2","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:56.498Z","action":"LIST","target":"VRG\\element\\quanlyquacacthoiky\\chutich","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:57.136Z","action":"LIST","target":"50nam\\50yearroom2\\public\\images\\page3","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:58.141Z","action":"LIST","target":"50nam\\50yearroom2\\public\\images\\page2","status":"SUCCESS"}
+{"time":"2026-09-30T07:29:59.098Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\2006-now","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:00.083Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css\\line-awesome\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:00.761Z","action":"LIST","target":"VRG\\element\\noidungtrungbay\\1975-1985","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:01.784Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:02.841Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\css\\line-awesome\\svg","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:04.706Z","action":"LIST","target":"VRG\\element\\quanlyquacacthoiky\\congdoan","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:05.327Z","action":"LIST","target":"50nam\\50yearroom2\\public\\images\\page1","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:06.287Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:07.291Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:08.300Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:09.228Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:09.885Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\kinhte-merge\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:10.857Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\kinhte-merge\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:11.836Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\songnuoc-doc\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:13.023Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\songnuoc-doc\\file","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:13.960Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\songnuoc-doc\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:14.980Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:16.086Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\img","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:17.099Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:17.913Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:18.641Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-a13cd8b4-5dd8-496f-aca9-ce5ee927a4d3","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:19.271Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-002","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:20.254Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-003","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:21.208Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-004","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:22.171Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-005","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:23.349Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-007","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:24.440Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-006","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:25.345Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-008","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:26.302Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-009","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:27.287Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-010","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:28.357Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-011","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:29.286Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-012","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:30.227Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-013","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:31.402Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-014","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:32.348Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-019","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:33.267Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-016","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:34.222Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-017","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:35.146Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-015","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:36.174Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-018","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:37.164Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-020","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:38.136Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-024","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:39.186Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-021","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:40.250Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-022","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:41.205Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-025","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:41.849Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-023","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:42.784Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-027","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:43.775Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-026","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:44.720Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-028","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:45.663Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\document-28723bdd-539c-4b7b-b847-b8d4807bb6bb","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:45.663Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-029","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:46.612Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-041","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:46.920Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-030","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:47.571Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-036","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:48.009Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-031","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:48.584Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-039","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:49.013Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-032","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:49.503Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-037","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:49.979Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-034","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:50.498Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-038","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:50.946Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-033","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:51.531Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-035","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:52.477Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-042","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:53.452Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\content-0f2e3817-facc-4828-8c8b-f0481b1791a6","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:54.425Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\artifact-imp-043","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:55.328Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\document-4038926f-4438-47ac-99a4-4bde26fe2a87","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:56.244Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\content-7e164fb1-b3b1-49aa-9a78-d56efd72f0ac","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:57.164Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\content-9b1662dc-4e4a-4d3e-9b09-54e0208485ef","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:58.243Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\document-019d1a58-f5e2-4fae-b441-3b4ef8915f73","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:59.199Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files\\content-0f2e3817-facc-4828-8c8b-f0481b1791a6","status":"SUCCESS"}
+{"time":"2026-09-30T07:30:59.499Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:00.198Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files\\content-9b1662dc-4e4a-4d3e-9b09-54e0208485ef","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:00.506Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files\\document-28723bdd-539c-4b7b-b847-b8d4807bb6bb","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:01.263Z","action":"LIST","target":"exhibition_cms_nestjs\\backend\\storage\\files\\document-9904fa90-0161-4d5c-99ce-081a3ca168f1","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:01.576Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files\\document-4038926f-4438-47ac-99a4-4bde26fe2a87","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:02.227Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files\\content-7e164fb1-b3b1-49aa-9a78-d56efd72f0ac","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:02.547Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files\\document-019d1a58-f5e2-4fae-b441-3b4ef8915f73","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:03.631Z","action":"LIST","target":"exhibition_cms_nestjs\\backup\\storage\\files\\document-9904fa90-0161-4d5c-99ce-081a3ca168f1","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:04.674Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\line-awesome\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:05.598Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\metadata","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:06.484Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\sprites-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:07.418Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\webfonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:08.343Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:09.268Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:10.270Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:11.241Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:12.261Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:13.172Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\sprites","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:14.141Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:15.156Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\sprites","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:15.545Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\line-awesome\\svg","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:16.131Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\images\\antin","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:17.060Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:17.374Z","action":"LIST","target":"LanSuRong Full\\LSR  CHỌN\\FILETULIEUCUNGCAPBAOTANGTRUNGBAY\\MUC11\\CÁC ĐỘNG TÁC LÊN MAI HOA THUNG","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:17.722Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\metadata","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:18.340Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:18.650Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\page","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:19.267Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:19.572Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\sprites-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:20.577Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\line-awesome\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:21.551Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:22.216Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:23.129Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:24.059Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\webfonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:24.992Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:25.606Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\public","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:26.556Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:27.544Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\line-awesome\\svg","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:29.334Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:30.254Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\kinhte-merge\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:31.230Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\images\\sacphong","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:32.163Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\images\\bando","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:33.154Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\kinhte-merge\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:34.088Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\songnuoc-doc\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:35.086Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\songnuoc-doc\\file","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:36.005Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\songnuoc-doc\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:36.930Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:37.834Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ẢNH HV BẢN ĐỒ -BẢN VẼ SÔNG NGÒI, KÊNH RẠCH SG-TP.HCM\\kho GIẤY- BẢN ĐỒ\\KK 5348 (71X51)","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:39.056Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\img","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:40.060Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Ba Ria","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:41.282Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:42.200Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\pages","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:43.169Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Chau Duc","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:44.160Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\2025 - p TB song ngoi kenh rach\\2025 - p TB song ngoi kenh rach\\New folder","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:45.109Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Con Dao","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:46.051Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Long Dien","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:47.032Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ẢNH HV BẢN ĐỒ -BẢN VẼ SÔNG NGÒI, KÊNH RẠCH SG-TP.HCM\\kho GIẤY- BẢN ĐỒ\\KK 14.375                 (65.5 x 43.5 cm)","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:48.139Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\ẢNH HV BẢN ĐỒ -BẢN VẼ SÔNG NGÒI, KÊNH RẠCH SG-TP.HCM\\kho GIẤY- BẢN ĐỒ\\KK 14964 (60X40)","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:49.322Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Dat Do","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:50.645Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:50.937Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public\\datas","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:52.006Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\animate4.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:52.323Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Vung Tau","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:53.037Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs-full\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:53.325Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Tan Thanh","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:54.298Z","action":"LIST","target":"SongNuoc\\hinh ảnh gốc  tb kenh rach\\Ban ve PDF\\Cac huyen-thanh pho\\Xuyen Moc","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:54.656Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:55.276Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:55.701Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\js\\counter","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:56.608Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:56.906Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:58.416Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs-full\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:58.992Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\js\\wow","status":"SUCCESS"}
+{"time":"2026-09-30T07:31:59.976Z","action":"LIST","target":"TamQuanDaiDe\\css\\fontawesome7.1.0\\svgs-full\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:01.851Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:02.901Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:03.871Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\js\\beerslider","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:05.007Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:06.190Z","action":"LIST","target":"vanhoa-main\\JS\\libs\\slick\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:07.475Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public\\design","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:08.475Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public\\element","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:09.381Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public\\images","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:10.366Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\kinhte-merge\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:11.443Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\kinhte-merge\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:12.435Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\songnuoc-doc\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:13.537Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\songnuoc-doc\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:14.475Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\songnuoc-doc\\file\\img","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:15.384Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\css\\bootstrap@4.3.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:16.383Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:17.335Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\bootstrap@4.3.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:18.348Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\libs","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:19.370Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\lightgallery","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:20.368Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\pages\\giaoduc","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:21.401Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\pages\\index","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:22.366Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\pages\\phongtuc","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:23.354Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\pages\\nghethuat","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:24.266Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\pages\\tinnguong","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:24.942Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:26.664Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:27.741Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:28.101Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:29.500Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\js\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:29.900Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs-full\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:30.449Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\js\\wow","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:31.357Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:31.721Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs-full\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:32.464Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs-full\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:33.559Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:34.343Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\animate4.1.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:35.125Z","action":"LIST","target":"LanSuRong Full\\lansurong\\css\\fontawesome7.1.0\\svgs-full\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:35.448Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs-full\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:36.524Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:36.943Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\bootstrap5.3.8","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:37.922Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\kinhte-merge\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:38.930Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\css\\fontawesome7.1.0\\svgs-full\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:40.279Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:41.239Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\public\\datas","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:42.244Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\js\\model-viewer","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:43.226Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\js\\counter","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:44.329Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\kinhte-merge\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:45.273Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\songnuoc-doc\\css\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:45.910Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\songnuoc-doc\\css\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:46.913Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\songnuoc-doc\\file\\img","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:47.852Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\css\\line-awesome","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:48.861Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\libs","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:49.872Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\css\\bootstrap@4.3.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:51.205Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\bootstrap@4.3.1","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:52.283Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\lightgallery","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:53.273Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\pages\\index","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:54.191Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\pages\\giaoduc","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:55.184Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\pages\\nghethuat","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:56.351Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\pages\\phongtuc","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:57.275Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\pages\\tinnguong","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:58.257Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:32:59.286Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:00.862Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\metadata","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:02.455Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:03.457Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\sprites","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:04.446Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\sprites-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:05.506Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:05.845Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:06.829Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\line-awesome\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:07.842Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public\\images\\sacphong","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:08.837Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public\\images\\antin","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:09.865Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:10.810Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\webfonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:11.553Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\libs\\wowjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:12.578Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\libs\\slick","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:13.404Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\libs\\CarouselJs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:14.409Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\libs\\coutupjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:15.486Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\public\\images\\bando","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:16.600Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:17.770Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\line-awesome\\svg","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:19.690Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:20.756Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:21.737Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:22.964Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\libs\\magnificJs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:23.938Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\metadata","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:25.086Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\js","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:26.211Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\sprites","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:26.603Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:26.936Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:27.597Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\sprites-full","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:28.922Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:29.912Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:31.199Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:33.309Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\libs\\coutupjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:34.348Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\webfonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:35.071Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\libs\\wowjs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:36.063Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\libs\\magnificJs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:37.083Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\libs\\slick","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:38.100Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\line-awesome\\css","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:39.197Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:40.779Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\line-awesome\\svg","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:42.536Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\line-awesome\\scss","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:43.476Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\libs\\CarouselJs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:44.468Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:45.776Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\line-awesome\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:47.120Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:48.186Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs-full\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:48.503Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\vanhoa-main\\JS\\libs\\slick\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:49.458Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:49.820Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs-full\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:51.074Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:51.494Z","action":"LIST","target":"DuongHam\\DuongHamDinhGiaLong\\public\\dialyhanhchinh-merge\\css\\fontawesome7.1.0\\svgs-full\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:52.380Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs-full\\brands","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:53.973Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs-full\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:55.869Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\vanhoa-main\\JS\\libs\\slick\\fonts","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:56.909Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs\\solid","status":"SUCCESS"}
+{"time":"2026-09-30T07:33:58.905Z","action":"LIST","target":"PDiaLy\\DiaLyHanhChinh\\public\\DuongHamDinhGiaLong\\css\\fontawesome7.1.0\\svgs-full\\regular","status":"SUCCESS"}
+{"time":"2026-09-30T07:40:02.497Z","action":"READ","target":"README-MCP.md","status":"SUCCESS"}
+{"time":"2026-09-30T07:40:25.150Z","action":"EDIT_REQUEST","target":"README-MCP.md","status":"PENDING","details":{"confirmation_id":"e908bf8a-a642-469d-9371-5a4a5f19ecb4"}}
+{"time":"2026-09-30T07:41:10.147Z","action":"EDIT_FILE","target":"README-MCP.md","status":"SUCCESS","details":{"backup":"C:\\MCP-Gateway\\backups\\2026-09-30T07-41-10-144Z-db1c1597-41dd-4caa-83df-c7e643de1626-README-MCP.md"}}
+{"time":"2026-09-30T07:41:10.148Z","action":"CONFIRMATION","target":"EDIT README-MCP.md","status":"APPROVED","details":{"confirmation_id":"e908bf8a-a642-469d-9371-5a4a5f19ecb4"}}
+{"time":"2026-09-30T07:48:48.756Z","action":"LIST","target":".","status":"SUCCESS"}
+{"time":"2026-09-30T07:49:45.391Z","action":"CREATE_FILE","target":"start-mcp-service.txt","status":"SUCCESS"}
+{"time":"2026-09-30T07:54:17.196Z","action":"LIST","target":".","status":"SUCCESS"}
+{"time":"2026-09-30T07:54:18.985Z","action":"READ","target":"README-MCP.md","status":"SUCCESS"}
+{"time":"2026-09-30T07:55:08.544Z","action":"EDIT_REQUEST","target":"README-MCP.md","status":"PENDING","details":{"confirmation_id":"1f1975e5-c98f-4713-815c-3aa68060ba58"}}
