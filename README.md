@@ -43,13 +43,19 @@ magick -version
 
 Nếu lệnh trả về phiên bản ImageMagick thì các chức năng chỉnh ảnh local như `image_transform`, `image_composite` và `design_export_preview` có thể sử dụng ImageMagick.
 
-Repository đã có sẵn file:
+Tạo file `.env` tại:
 
 ```text
 C:\MCP-Gateway\.env
 ```
 
-File `.env` sẽ được sử dụng để lưu Runtime API Key ở Bước 6. Đảm bảo `.env` đã nằm trong `.gitignore` và không commit API Key lên GitHub.
+Nội dung:
+
+```env
+CONTROL_PLANE_API_KEY=PASTE_API_KEY
+```
+
+Thay `PASTE_API_KEY` bằng Runtime API Key của bạn. Đảm bảo `.env` nằm trong `.gitignore` và không commit API Key lên GitHub.
 
 ## 3. Sửa ROOT trong `index.ts`
 
@@ -119,7 +125,7 @@ https://platform.openai.com/settings/organization/api-keys
 
 Tạo Runtime API Key dùng cho `tunnel-client`.
 
-Sau khi có API Key, mở file đã có sẵn từ Bước 2:
+Sau khi có API Key, mở file:
 
 ```text
 C:\MCP-Gateway\.env
@@ -128,13 +134,7 @@ C:\MCP-Gateway\.env
 Thêm hoặc cập nhật:
 
 ```env
-CONTROL_PLANE_API_KEY=YOUR_RUNTIME_API_KEY
-```
-
-Ví dụ cấu trúc `.env`:
-
-```env
-CONTROL_PLANE_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
+CONTROL_PLANE_API_KEY=PASTE_API_KEY
 ```
 
 Không commit `.env` lên GitHub. Đảm bảo `.gitignore` có:
