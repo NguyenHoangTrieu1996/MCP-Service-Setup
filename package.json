@@ -4,7 +4,7 @@
   "description": "Windows filesystem MCP gateway with binary, media, Office, design analysis and secure asset editing support",
   "main": "index.js",
   "scripts": {
-    "test": "npm run typecheck && node --import tsx --test tests/fileIO.test.ts tests/documentFormats.test.ts tests/modelFormats.test.ts tests/gateway.test.ts",
+    "test": "npm run typecheck && node --import tsx --test tests/fileIO.test.ts tests/documentFormats.test.ts tests/officeFsReadCompat.test.ts tests/modelFormats.test.ts tests/gateway.test.ts",
     "typecheck": "tsc --noEmit",
     "start": "tsx src/bootstrap.ts",
     "inspect": "npx @modelcontextprotocol/inspector"

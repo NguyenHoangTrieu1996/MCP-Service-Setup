@@ -15,8 +15,9 @@ function secureFor(root: string) {
     const target = path.resolve(root, input);
     const relative = path.relative(root, target);
     assert.ok(relative !== ".." && !relative.startsWith(".." + path.sep) && !path.isAbsolute(relative), "inside root");
+    const realRoot = await fs.realpath(root);
     const real = await fs.realpath(target);
-    const realRelative = path.relative(root, real);
+    const realRelative = path.relative(realRoot, real);
     assert.ok(realRelative !== ".." && !realRelative.startsWith(".." + path.sep) && !path.isAbsolute(realRelative), "real path inside root");
     return target;
   };
