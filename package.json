@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run typecheck && node --import tsx --test tests/fileIO.test.ts tests/documentFormats.test.ts tests/officeFsReadCompat.test.ts tests/modelFormats.test.ts tests/gateway.test.ts",
     "typecheck": "tsc --noEmit",
-    "start": "tsx src/bootstrap.ts",
+    "start": "tsx src/start.ts",
     "inspect": "npx @modelcontextprotocol/inspector"
   },
   "keywords": [],
