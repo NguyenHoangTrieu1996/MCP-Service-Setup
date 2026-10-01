@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - feature/office-read-work-validation
+      - main
 
 jobs:
   validate:
