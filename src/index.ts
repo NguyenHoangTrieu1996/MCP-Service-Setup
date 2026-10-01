@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(process.env.MCP_ROOT || "C:\\Users\\ADMIN\\Documents\\For Works");
 const LOG_DIR = path.resolve(process.env.MCP_LOG_DIR || "C:\\MCP-Gateway\\logs");
 const BACKUP_DIR = path.resolve(process.env.MCP_BACKUP_DIR || "C:\\MCP-Gateway\\backups");
-const PORT = Number(process.env.MCP_PORT || 3000);
+const PORT = Number(process.env.MCP_PORT || 8765);
 const HOST = "127.0.0.1";
 const VERSION = "4.0.0";
 const CONFIRMATION_TTL_MS = 10 * 60 * 1000;

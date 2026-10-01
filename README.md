@@ -188,7 +188,7 @@ Sau đó cấu hình Tunnel:
 ```powershell
 cd C:\MCP-Gateway\tunnel
 
-.\tunnel-client.exe init --sample sample_mcp_remote_no_auth --profile windows-mcp --tunnel-id tunnel_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --mcp-server-url http://127.0.0.1:3000/mcp
+.\tunnel-client.exe init --sample sample_mcp_remote_no_auth --profile windows-mcp --tunnel-id tunnel_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --mcp-server-url http://127.0.0.1:8765/mcp
 ```
 
 Profile trên Windows thường được lưu tại:
