@@ -19,8 +19,6 @@ Nếu cả hai lệnh trả về version thì Node.js đã hoạt động.
 
 ## 2. Cài MCP Server từ GitHub
 
-Nếu bộ MCP Service đã có sẵn trên GitHub, clone repository hoặc tải file ZIP về máy:
-
 ```powershell
 cd C:\
 git clone https://github.com/NguyenHoangTrieu1996/MCP-Service-Setup MCP-Gateway
@@ -34,15 +32,11 @@ npm install
 winget install ImageMagick.ImageMagick
 ```
 
-Sau khi cài xong, nên đóng PowerShell hiện tại và mở lại PowerShell mới để Windows cập nhật biến `PATH`.
-
-Kiểm tra ImageMagick:
+Sau khi cài xong, đóng PowerShell hiện tại và mở lại PowerShell mới để Windows cập nhật `PATH`.
 
 ```powershell
 magick -version
 ```
-
-Nếu lệnh trả về phiên bản ImageMagick thì các chức năng chỉnh ảnh local như `image_transform`, `image_composite` và `design_export_preview` có thể sử dụng ImageMagick.
 
 Tạo file `.env` tại:
 
@@ -56,38 +50,54 @@ Nội dung:
 CONTROL_PLANE_API_KEY=PASTE_API_KEY
 ```
 
-Thay `PASTE_API_KEY` bằng Runtime API Key của bạn. Đảm bảo `.env` nằm trong `.gitignore` và không commit API Key lên GitHub.
+Không commit `.env` hoặc API Key lên GitHub.
 
-## 3. Sửa ROOT trong `index.ts`
+## 3. Cấu hình ROOT và port MCP
 
-Mở file MCP, ví dụ:
+MCP Gateway mặc định chỉ lắng nghe local tại:
 
 ```text
-C:\MCP-Gateway\src\index.ts
+http://127.0.0.1:8765
 ```
 
-Tìm:
+Port `8765` được dành cho MCP Gateway để tránh xung đột với các backend như NestJS thường chạy ở port `3000`.
+
+Có thể đổi port mà không sửa source bằng biến môi trường `MCP_PORT`, ví dụ:
+
+```powershell
+$env:MCP_PORT=9000
+npm start
+```
+
+ROOT mặc định nằm trong `src/index.ts`:
 
 ```typescript
 const ROOT = path.resolve(process.env.MCP_ROOT || "C:\\Users\\ADMIN\\Documents\\For Works");
 ```
 
-Đổi thành thư mục muốn cấp quyền cho AI.
+Có thể cấu hình ROOT bằng biến môi trường thay vì sửa source:
 
-Ví dụ:
-
-```typescript
-const ROOT = path.resolve(process.env.MCP_ROOT || "C:\\Users\\ADMIN\\Documents\\For Works");
+```powershell
+$env:MCP_ROOT="D:\Documents For Work"
+npm start
 ```
 
-Sau khi sửa, restart MCP:
+Không nên cấp toàn bộ `C:\` hoặc `D:\` nếu không thực sự cần thiết.
+
+Khởi động MCP:
 
 ```powershell
 cd C:\MCP-Gateway
 npm start
 ```
 
-Không nên đặt ROOT thành `C:\`, `D:\` hoặc toàn bộ ổ đĩa nếu không thực sự cần thiết.
+Kiểm tra port:
+
+```powershell
+Get-NetTCPConnection -LocalPort 8765 -State Listen
+```
+
+Kết quả phải cho thấy MCP đang listen tại `127.0.0.1:8765`.
 
 ---
 
@@ -103,51 +113,35 @@ cd C:\MCP-Gateway\tunnel
 
 ## 5. Tạo Tunnel trên OpenAI
 
-Mở trực tiếp:
+Mở:
 
 https://platform.openai.com/settings/organization/tunnels
 
-Tạo một MCP Tunnel mới và liên kết đúng Platform organization / ChatGPT workspace cần sử dụng.
-
-Sau khi tạo, lưu lại Tunnel ID dạng:
+Tạo MCP Tunnel mới và lưu Tunnel ID:
 
 ```text
 tunnel_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-Không chia sẻ Runtime API Key hoặc Admin API Key trong README/GitHub.
-
 ---
 
-## 6. Tạo Runtime API Key và lưu vào `.env`
+## 6. Tạo Runtime API Key và nạp `.env`
 
 Mở:
 
 https://platform.openai.com/settings/organization/api-keys
 
-Tạo Runtime API Key dùng cho `tunnel-client`.
-
-Sau khi có API Key, mở file:
+Lưu Runtime API Key vào:
 
 ```text
 C:\MCP-Gateway\.env
 ```
 
-Thêm hoặc cập nhật:
-
 ```env
 CONTROL_PLANE_API_KEY=PASTE_API_KEY
 ```
 
-Không commit `.env` lên GitHub. Đảm bảo `.gitignore` có:
-
-```gitignore
-.env
-```
-
-Từ bước này trở đi không cần ghi API Key trực tiếp trong các lệnh PowerShell. Khi cần chạy `tunnel-client`, nạp `CONTROL_PLANE_API_KEY` từ file `.env` vào biến môi trường của PowerShell.
-
-Có thể nạp bằng:
+Nạp `.env` vào PowerShell:
 
 ```powershell
 $envFile = "C:\MCP-Gateway\.env"
@@ -160,7 +154,7 @@ Get-Content $envFile | ForEach-Object {
 }
 ```
 
-Kiểm tra biến đã được nạp mà không in API Key ra màn hình:
+Kiểm tra mà không in API Key:
 
 ```powershell
 if ($env:CONTROL_PLANE_API_KEY) { "CONTROL_PLANE_API_KEY loaded" } else { "CONTROL_PLANE_API_KEY missing" }
@@ -168,60 +162,50 @@ if ($env:CONTROL_PLANE_API_KEY) { "CONTROL_PLANE_API_KEY loaded" } else { "CONTR
 
 ---
 
-## 7. Cấu hình `tunnel-client`
+## 7. Cấu hình Tunnel cho MCP port 8765
 
-Trước tiên nạp API Key từ `.env`:
-
-```powershell
-$envFile = "C:\MCP-Gateway\.env"
-Get-Content $envFile | ForEach-Object {
-    if ($_ -match '^\s*([^#][^=]*)=(.*)$') {
-        $name = $matches[1].Trim()
-        $value = $matches[2].Trim()
-        [Environment]::SetEnvironmentVariable($name, $value, "Process")
-    }
-}
-```
-
-Sau đó cấu hình Tunnel:
-
-```powershell
-cd C:\MCP-Gateway\tunnel
-
-.\tunnel-client.exe init --sample sample_mcp_remote_no_auth --profile windows-mcp --tunnel-id tunnel_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --mcp-server-url http://127.0.0.1:3000/mcp
-```
-
-Profile trên Windows thường được lưu tại:
-
-```text
-C:\Users\<USERNAME>\AppData\Roaming\tunnel-client\windows-mcp.yaml
-```
-
-`tunnel-client` sẽ đọc `CONTROL_PLANE_API_KEY` từ biến môi trường Process vừa được nạp từ `.env`, thay vì ghi API Key trực tiếp vào profile.
-
----
-
-## 8. Kiểm tra Tunnel
-
-Đầu tiên bảo đảm MCP Server đang chạy:
+Trước tiên bảo đảm MCP Server đang chạy:
 
 ```powershell
 cd C:\MCP-Gateway
 npm start
 ```
 
-Ở PowerShell khác, nạp API Key từ `.env` rồi chạy `doctor`:
+Mở PowerShell khác, nạp API Key từ `.env` như bước 6, sau đó cấu hình Tunnel:
 
 ```powershell
-$envFile = "C:\MCP-Gateway\.env"
-Get-Content $envFile | ForEach-Object {
-    if ($_ -match '^\s*([^#][^=]*)=(.*)$') {
-        $name = $matches[1].Trim()
-        $value = $matches[2].Trim()
-        [Environment]::SetEnvironmentVariable($name, $value, "Process")
-    }
-}
+cd C:\MCP-Gateway\tunnel
 
+.\tunnel-client.exe init --sample sample_mcp_remote_no_auth --profile windows-mcp --tunnel-id tunnel_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --mcp-server-url http://127.0.0.1:8765/mcp
+```
+
+**Lưu ý:** `--mcp-server-url` phải dùng port `8765`, không dùng port `3000`.
+
+Profile Windows thường nằm tại:
+
+```text
+C:\Users\<USERNAME>\AppData\Roaming\tunnel-client\windows-mcp.yaml
+```
+
+Nếu profile `windows-mcp` đã được tạo trước đây với port `3000`, hãy tạo lại/cập nhật profile để `mcp_server_url` trỏ tới:
+
+```text
+http://127.0.0.1:8765/mcp
+```
+
+---
+
+## 8. Kiểm tra Tunnel
+
+Kiểm tra MCP local trước:
+
+```powershell
+Get-NetTCPConnection -LocalPort 8765 -State Listen
+```
+
+Sau đó chạy doctor:
+
+```powershell
 cd C:\MCP-Gateway\tunnel
 .\tunnel-client.exe doctor --profile windows-mcp --explain
 ```
@@ -232,7 +216,7 @@ Kết quả mong muốn:
 RESULT ok
 ```
 
-Sau khi tunnel đang chạy, có thể kiểm tra readiness tại port health đã cấu hình, ví dụ:
+Nếu profile dùng health port `8080`, kiểm tra:
 
 ```powershell
 Invoke-WebRequest http://127.0.0.1:8080/readyz -UseBasicParsing
@@ -245,7 +229,7 @@ StatusCode : 200
 Content    : ready
 ```
 
-Local Tunnel UI (nếu profile dùng port 8080):
+Local Tunnel UI (nếu dùng port 8080):
 
 http://127.0.0.1:8080/ui
 
@@ -256,6 +240,18 @@ http://127.0.0.1:8080/ui
 ```powershell
 cd C:\MCP-Gateway\tunnel
 .\tunnel-client.exe run --profile windows-mcp
+```
+
+Luồng kết nối đúng:
+
+```text
+ChatGPT
+   ↓
+OpenAI Secure MCP Tunnel
+   ↓
+http://127.0.0.1:8765/mcp
+   ↓
+MCP Gateway
 ```
 
 ---
@@ -298,5 +294,3 @@ https://developers.openai.com/plugins/deploy/connect-chatgpt
 
 MCP Inspector:
 https://github.com/modelcontextprotocol/inspector
-
----
